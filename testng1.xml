@@ -1,0 +1,13 @@
+<suite name="default">
+<test name="Btes_course1">
+<parameter name="firstname" value="vishal"/>
+<parameter name="lastname" value="saini"/>
+		
+		<classes>
+			<class name="TestngFramework.ParametersContactUs" />
+			
+		</classes>
+
+
+	</test> 
+	</suite>

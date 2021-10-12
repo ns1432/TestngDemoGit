@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Btes">
+	<test name="Btes">
+		<classes>
+		
+			<class name="TestngFramework.LaunchBrowser" />
+			<class name="TestngFramework.HomePage" />
+		
+		</classes>
+	</test>
+
+	<test name="Btes1">
+		<groups>
+			<run>
+				<exclude name="regression" />
+				<include name="smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestngFramework.Groups" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
